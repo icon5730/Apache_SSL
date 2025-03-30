@@ -2,13 +2,13 @@
 A Bash script designed for automating the process of installing Apache2 and setting up a self-signed certificate & keys for SSL connection via HTTPS.
 
 The script performs the following operations:
-* Checks if Apache2 is already installed. If it is not - the script autoinstalls it.
+* Checks if Apache2 is already installed. If it is not - the script installs it.
 * Configures Apache2 to launch at startup.
 * Enables SSL support.
 * Collects user info for the server's certificate.
 * Generates SSL keys (private & public).
 * Generates a .conf file to be used in the server's certificate.
-* Conducts a final test to make sure Apaches's SSL configuration is active.
+* Conducts a final test to make sure Apache's SSL configuration is active.
 
 <b>Full Script Run:</b>
 
